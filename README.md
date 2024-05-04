@@ -1,10 +1,8 @@
 # A25-KoreanPatch
-A25, '레슬레리아나의 아틀리에 ~잊혀진 연금술과 극야의 해방자~'의 일본판에 대한 자동 번역 플러그인과 번역 파일을 합친 패키지 입니다.
+A25, '레슬레리아나의 아틀리에 \~잊혀진 연금술과 극야의 해방자~'의 일본판에 대한 자동 번역 플러그인과 번역 파일을 합친 패키지 입니다.
 
 ## ※ 주의사항 ※
-<p style="color:red" align="center"><b>본 패치에서 사용하는 프로그램은 실행 중인 다른 프로그램의 요소를 읽고, 교체하는 프로그램입니다.<br>
-이에 따라, 본 페이지에서 제공되는 프로그램들의 사용으로 인해 원 서비스 제공자가 사용자를 제재할 수 있습니다.<br>
-이러한 상황이 발생한 경우 프로그램 사용자의 책임이며, 플러그인 및 패키지 제공자에는 책임이 없습니다.</b></p>
+### <p align="center">본 패치에서 사용하는 프로그램은 실행 중인 다른 프로그램의 요소를 읽고, 교체하는 프로그램입니다.<br>이에 따라, 본 페이지에서 제공되는 프로그램들의 사용으로 인해 원 서비스 제공자가 사용자를 제재할 수 있습니다.<br>이러한 상황이 발생한 경우 프로그램 사용자의 책임이며, 플러그인 및 패키지 제공자에는 책임이 없습니다.</p>
 
 
 본 패치(번역기)를 사용한 경우, 화면 내 모든 텍스트를 번역하기 때문에 검색을 비롯하여 텍스트 입력 및 그와 연관된 기능들이 올바르게 동작하지 않을 수 있습니다.  
@@ -12,7 +10,7 @@ A25, '레슬레리아나의 아틀리에 ~잊혀진 연금술과 극야의 해�
 
 ## 번역 정보
 + 초벌 번역 : Papago 번역기
-+ 검수 및 수정 : starlightpn
++ 검수 및 수정 : 별빛마루(starlightpn)
 
 ## 사용된 프로그램
 + [BepinEx Bleeding Edge build #672](https://builds.bepinex.dev/projects/bepinex_be)
@@ -53,14 +51,14 @@ A25, '레슬레리아나의 아틀리에 ~잊혀진 연금술과 극야의 해�
 아래에서는 본 페이지의 파일을 사용하지 않고 사용자가 직접 적용하는 방법을 설명합니다.
 
 ### 1. BepinEx Bleeding Edge build 설치
-여기에서 BepinEx Bleeding Edge 빌드를 다운로드 합니다.
+[여기](https://builds.bepinex.dev/projects/bepinex_be)에서 BepinEx Bleeding Edge 빌드를 다운로드 합니다.
 + BepinEx-Unity.IL2CPP-win-x64-... 버전을 다운로드합니다.
 + XUnity.AutoTranslator가 지원하는 것으로 명시된 버전은 #672 버전입니다.
 
 다운로드 받은 BepinEx Bleeding Edge 버전을 게임 폴더('..\AtelierResleriana\)에 설치합니다.
 
 ### 2. XUnity.AutoTranslator의 BepinEx Plugin 설치
-여기에서 XUnity.AutoTranslator의 BepinEx Plugin을 다운로드 합니다.
+[여기](https://github.com/bbepis/XUnity.AutoTranslator/releases/tag/v5.3.0)에서 XUnity.AutoTranslator의 BepinEx Plugin을 다운로드 합니다.
 + XUnity.AutoTranslator-BepInEx-IL2CPP..를 다운로드 해야합니다.
 + 240504 현재 최신 버전은 5.3.0입니다.
 
