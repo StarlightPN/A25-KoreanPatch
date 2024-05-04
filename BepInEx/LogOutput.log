@@ -1,0 +1,120 @@
+[Message: Preloader] BepInEx 6.0.0-be.672 - AtelierResleriana
+[Message: Preloader] Built from commit 472e950179f4a5ab2e4a89f26dba793795fb6811
+[Info   :   BepInEx] System platform: Windows 10 64-bit
+[Info   :   BepInEx] Process bitness: 64-bit (x64)
+[Info   :   BepInEx] Running under Unity 2021.3.23f1
+[Info   :   BepInEx] Runtime version: 6.0.7
+[Info   :   BepInEx] Runtime information: .NET 6.0.7
+[Info   : Preloader] 0 patcher plugins loaded
+[Info   : Preloader] 0 assemblies discovered
+[Message:AssemblyPatcher] Executing 0 patch(es)
+[Message:   BepInEx] Chainloader initialized
+[Warning:Il2CppInterop] Class::Init signatures have been exhausted, using a substitute!
+[Warning:Il2CppInterop] GarbageCollector::RunFinalizer not found, disabling Il2CppObjectPool
+[Info   :Il2CppInterop] Registered mono type Il2CppInterop.Runtime.DelegateSupport+Il2CppToMonoDelegateReference in il2cpp domain
+[Info   :   BepInEx] 2 plugins to load
+[Info   :   BepInEx] Loading [XUnity Auto Translator 5.3.0]
+[Warning:Il2CppInterop] GarbageCollector::RunFinalizer not found, disabling Il2CppObjectPool
+[Info   :Il2CppInterop] Registered mono type XUnity.AutoTranslator.Plugin.Core.PluginLoader+AutoTranslatorProxyBehaviour in il2cpp domain
+[Info   :   BepInEx] Loading [XUnity Resource Redirector 2.1.0]
+[Message:   BepInEx] Chainloader startup complete
+[Info   :XUnity.AutoTranslator] Force loading ALL proxy assemblies.
+[Warning:XUnity.AutoTranslator] Could not find 'UnityEngine.TextMesh' in IL2CPP domain even though it could be found in the managed domain.
+[Warning:XUnity.AutoTranslator] Could not find 'UnityEngine.WWW' in IL2CPP domain even though it could be found in the managed domain.
+[Warning:XUnity.AutoTranslator] Could not find 'UnityEngine.GUI+ToolbarButtonSize' in IL2CPP domain even though it could be found in the managed domain.
+[Info   :XUnity.AutoTranslator] Version of TextMesh Pro: 1.4.0.
+[Warning:  HarmonyX] AccessTools.Method: Could not find method for type TMPro.TMP_Text and name SetCharArray and parameters (Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppStructArray<int>, int, int)
+[Warning:XUnity.AutoTranslator] Could not hook 'TMP_Text_SetCharArray_Hook3'. Likely due differences between different versions of the engine or text framework.
+[Info   :XUnity.AutoTranslator] Attempting to load TextMesh Pro font from asset bundle.
+[Info   :XUnity.AutoTranslator] Loaded TextMesh Pro font uses version: 1.1.0
+[Warning:XUnity.AutoTranslator] TextMesh Pro version mismatch. Font asset version: 1.1.0, TextMesh Pro version: 1.4.0
+[Info   :XUnity.AutoTranslator] Loaded fallback font for TextMesh Pro: bexb_fallback_notosans
+[Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2021.3.23f1] game.
+[Warning:Il2CppInterop] GarbageCollector::RunFinalizer not found, disabling Il2CppObjectPool
+[Info   :Il2CppInterop] Registered mono type XUnity.AutoTranslator.Plugin.Core.Il2CppManagedEnumerator in il2cpp domain
+[Warning:XUnity.AutoTranslator] Input API is not available!
+System.TypeLoadException: Could not load type 'UnityEngine.Input' from assembly 'UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.HandleInput()
+   at XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.HandleInputSafe()
+[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
+[Error  :Il2CppInterop] During invoking native->managed trampoline
+Exception: Il2CppInterop.Runtime.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+--- BEGIN IL2CPP STACK TRACE ---
+System.NullReferenceException: Object reference not set to an instance of an object.
+  at UnityEngine.Component.GetComponentInParent (System.Type t, System.Boolean includeInactive) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Component.GetComponentInParent[T] () [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TextMeshProUGUI.ForceMeshUpdate (System.Boolean ignoreActiveState, System.Boolean forceTextReparsing) [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Text.set_text (System.String value) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at DMD<TMPro.TMP_Text::set_text>(TMP_Text this, String value)
+   at (il2cpp -> managed) set_text(IntPtr , IntPtr , Il2CppMethodInfo* )
+[Error  :Il2CppInterop] During invoking native->managed trampoline
+Exception: Il2CppInterop.Runtime.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+--- BEGIN IL2CPP STACK TRACE ---
+System.NullReferenceException: Object reference not set to an instance of an object.
+  at TMPro.TextMeshProUGUI.OnPreRenderCanvas () [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Text.set_text (System.String value) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at DMD<TMPro.TMP_Text::set_text>(TMP_Text this, String value)
+   at (il2cpp -> managed) set_text(IntPtr , IntPtr , Il2CppMethodInfo* )
+[Error  :Il2CppInterop] During invoking native->managed trampoline
+Exception: Il2CppInterop.Runtime.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+--- BEGIN IL2CPP STACK TRACE ---
+System.NullReferenceException: Object reference not set to an instance of an object.
+  at TMPro.TextMeshProUGUI.OnPreRenderCanvas () [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Text.set_text (System.String value) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at DMD<TMPro.TMP_Text::set_text>(TMP_Text this, String value)
+   at (il2cpp -> managed) set_text(IntPtr , IntPtr , Il2CppMethodInfo* )
+[Error  :Il2CppInterop] During invoking native->managed trampoline
+Exception: Il2CppInterop.Runtime.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+--- BEGIN IL2CPP STACK TRACE ---
+System.NullReferenceException: Object reference not set to an instance of an object.
+  at TMPro.TextMeshProUGUI.OnPreRenderCanvas () [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Text.set_text (System.String value) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at DMD<TMPro.TMP_Text::set_text>(TMP_Text this, String value)
+   at (il2cpp -> managed) set_text(IntPtr , IntPtr , Il2CppMethodInfo* )
+[Error  :Il2CppInterop] During invoking native->managed trampoline
+Exception: Il2CppInterop.Runtime.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+--- BEGIN IL2CPP STACK TRACE ---
+System.NullReferenceException: Object reference not set to an instance of an object.
+  at TMPro.TextMeshProUGUI.OnPreRenderCanvas () [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Text.set_text (System.String value) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at DMD<TMPro.TMP_Text::set_text>(TMP_Text this, String value)
+   at (il2cpp -> managed) set_text(IntPtr , IntPtr , Il2CppMethodInfo* )
+[Error  :Il2CppInterop] During invoking native->managed trampoline
+Exception: Il2CppInterop.Runtime.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+--- BEGIN IL2CPP STACK TRACE ---
+System.NullReferenceException: Object reference not set to an instance of an object.
+  at TMPro.TextMeshProUGUI.OnPreRenderCanvas () [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Text.set_text (System.String value) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at DMD<TMPro.TMP_Text::set_text>(TMP_Text this, String value)
+   at (il2cpp -> managed) set_text(IntPtr , IntPtr , Il2CppMethodInfo* )
+[Error  :Il2CppInterop] During invoking native->managed trampoline
+Exception: Il2CppInterop.Runtime.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+--- BEGIN IL2CPP STACK TRACE ---
+System.NullReferenceException: Object reference not set to an instance of an object.
+  at UnityEngine.Component.GetComponentInParent (System.Type t, System.Boolean includeInactive) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Component.GetComponentInParent[T] () [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TextMeshProUGUI.ForceMeshUpdate (System.Boolean ignoreActiveState, System.Boolean forceTextReparsing) [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Text.set_text (System.String value) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at DMD<TMPro.TMP_Text::set_text>(TMP_Text this, String value)
+   at (il2cpp -> managed) set_text(IntPtr , IntPtr , Il2CppMethodInfo* )
