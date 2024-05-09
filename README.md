@@ -9,34 +9,56 @@ A25, '레슬레리아나의 아틀리에 \~잊혀진 연금술과 극야의 해�
 해당 기능을 사용하기 위해서는 플러그인을 제거하여 번역을 사용하지 않거나, 모바일 버전에서 사용해주세요.
 
 ## 번역 정보
-+ 초벌 번역 : Papago 번역기
-+ 검수 및 수정 : 별빛마루(starlightpn)
++ 자동 번역 : Papago 번역기
++ 번역 검수 : [별빛마루(starlightpn)](https://bsky.app/profile/starlightpn.bsky.social)
 
 ## 사용된 프로그램
 + [BepinEx Bleeding Edge build #672](https://builds.bepinex.dev/projects/bepinex_be)
 + [XUnity.AutoTranslator 5.3.0](https://github.com/bbepis/XUnity.AutoTranslator)
 
+## 패치 적용 방법
+1. 오른쪽의 'Release'를 선택하여 패치 파일을 다운로드 합니다.
+2. 다운로드 받은 패치 파일 중, 'Plugin Package' 폴더에 있는 파일들을 `게임 폴더(..\AtelierResleriana\)`에 배치합니다.
+3. 다운로드 받은 패치 파일 중, 'Translation' 폴더에 있는 번역 파일 중, 사용할 번역 판본 폴더를 `게임 번역 폴더(..\AtelierResleriana\BepInEx\Translation\ko\Text\)`에 배치합니다.
+4. 게임을 시작합니다.
+
 ## 진척도
+~ : 진행 중 혹은 진행 예정
+- : 예정 없음
+○ : 작업 완료
+번역 판본의 진행 여부는 예고 없이 변경될 수 있습니다.
+| 영역 | 텍스트 파일 존재 여부 | 데이터 정리 | 직역 | 중역 | 완역 |
+|-|-|-|-|
+| 메인 화면 UI | 있음(CommonUI) | 진행 중 | ~ | ~ | ~ |
+| 메인 스토리 | 있음(MainStory) | 진행 중 | - | - | ~ |
+| 이벤트 스토리 | 없음(예정 없음) | - | - | - | - |
+| 아이템 이름 | 있음 | 진행 중 | ~ | - | ~(일부 정식 발매 번역을 따름) |
+| 특성(잠재 능력) 이름 | 있음 | 진행 중 | ~ | - | ~(일부 정식 발매 번역을 따름) |
+| 이벤트 UI | 있음(EventUI) | 진행 중 | ~ | ~ | ~ |
+| 전투 UI | 있음(BattleUI) | 진행 중 | ~ | ~ | ~ |
+| 캐릭터 이름 | 있음(CharaName) | 진행 중 | ~ | - | - |
+| 스킬 설명 | 있음(CharaSkill) | 진행 중 | ~ | ~ | ~ |
+| 메모리아 | 있음(Memoria) | 미 진행 | ~ | ~ | ~ |
+| 화면 도움말 | 있음(Help) | 미 진행 | - | - | ~ |
+| 미션 | 있음(Mission) | 미 진행 | ~ | ~ | ~ |
+| 엠블럼 | 있음(Emblem) | 미 진행 | ~ | ~ | ~ |
+| 업적 | 있음(Help) | 미 진행 | ~ | ~ | ~ |
+| 로그인 대사 | 있음(LoginDialogue) | 미 진행 | - | - | 완역으로만 진행 |
+| 아틀리에 대사 | 있음(AtelierDialogue) | 미 진행 | - | - | 완역으로만 진행 |
 
-
-## 알려진 이슈
-![상품명 미 표시 이슈](https://github.com/StarlightPN/A25-KoreanPatch/blob/main/Readme_Resource/productname_issue.png)
-+ 굵은 글씨가 화면에 출력되지 않는 문제
-    + 글꼴 문제로 추측되는데 해결에 시간이 오래 걸릴 것으로 예상됩니다.
-    + 필요한 경우 플러그인을 전부 삭제하여 비활성화 해주세요.
-    + 해당 영역
-        + 상점에서 파는 상품의 상품 이름
-        + 일부 주의사항
-        + 그 외 확인되지 않은 일부 영역
-    + 해당 영역은 번역 데이터를 통해 원문으로 표시되게 할 예정입니다.
+## 알려진 문제
++ 스토리 진행 중, 화자 및 지문 텍스트가 표시되는 높이가 일치하지 않는 문제.
 
 ## 예정 사항
++ 전체 번역 텍스트 추가
+    + 번역 플러그인에서는 배포 시 텍스트 파일도 함께 배포하여 온라인 번역기의 부하를 줄이는 것을 권장하고 있습니다.
 + 전체 번역 텍스트 검수
 + 전체 텍스트 완역
     + 예시)'마법 대미지 상승' → '마법 피해 증가'
     + 예시)'스태미나' → '행동력'
-    + 예시)'퀘스트' → '의뢰'
+    + 예시)'메모리아' → '추억'
     + 등등
++ 이 단계까지 진행이 완료되면 1차적으로 배포 예정입니다.
 + 정규 표현식을 사용하여 번역 데이터 정리
 
 ## 적용 화면
@@ -47,7 +69,7 @@ A25, '레슬레리아나의 아틀리에 \~잊혀진 연금술과 극야의 해�
 ## 일본판 설치 방법
 
 
-## 수동 적용 법
+## 수동 적용법
 아래에서는 본 페이지의 파일을 사용하지 않고 사용자가 직접 적용하는 방법을 설명합니다.
 
 ### 1. BepinEx Bleeding Edge build 설치
@@ -55,7 +77,7 @@ A25, '레슬레리아나의 아틀리에 \~잊혀진 연금술과 극야의 해�
 + BepinEx-Unity.IL2CPP-win-x64-... 버전을 다운로드합니다.
 + XUnity.AutoTranslator가 지원하는 것으로 명시된 버전은 #672 버전입니다.
 
-다운로드 받은 BepinEx Bleeding Edge 버전을 게임 폴더('..\AtelierResleriana\)에 설치합니다.
+다운로드 받은 BepinEx Bleeding Edge 버전을 `게임 폴더(..\AtelierResleriana\)`에 설치합니다.
 
 ### 2. XUnity.AutoTranslator의 BepinEx Plugin 설치
 [여기](https://github.com/bbepis/XUnity.AutoTranslator/releases/tag/v5.3.0)에서 XUnity.AutoTranslator의 BepinEx Plugin을 다운로드 합니다.
