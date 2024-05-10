@@ -1,0 +1,1 @@
+Translation_KR=ChangeFontSizeByPercentage(0.5)
