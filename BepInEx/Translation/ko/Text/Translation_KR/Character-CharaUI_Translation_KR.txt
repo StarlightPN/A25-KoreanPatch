@@ -1,0 +1,2 @@
+sr:"(Lv.)(?<SkillLv>[\d]{1})(　)(?<SkillName>[\S\s]+)"="RLv.${SkillLv} ${SkillName}"
+sr:"(Lv.)(?<SkillLv>[\d]{1})( )(?<SkillName>[\S\s]+)"="RLv.${SkillLv} ${SkillName}"
