@@ -19,10 +19,10 @@ A25, '레슬레리아나의 아틀리에 \~잊혀진 연금술과 극야의 해�
 + 번역 검수 : [별빛마루(starlightpn)](https://bsky.app/profile/starlightpn.bsky.social)
 
 ## 사용된 프로그램
-+ [BepinEx Bleeding Edge build #672](https://builds.bepinex.dev/projects/bepinex_be)
-+ [XUnity.AutoTranslator 5.3.0](https://github.com/bbepis/XUnity.AutoTranslator)
++ [BepinEx 6.0.0-pre.2](https://github.com/BepInEx/BepInEx/releases/tag/v6.0.0-pre.2)
++ [XUnity.AutoTranslator 5.4.0](https://github.com/bbepis/XUnity.AutoTranslator)
 
-## 패치 적용 방법
+## 패치 적용 방법(현재 사용 불가)
 1. 오른쪽의 'Release'를 선택하여 패치 파일을 다운로드 합니다.
 2. 다운로드 받은 패치 파일 중, 'Plugin Package' 폴더에 있는 파일들을 `게임 폴더(..\AtelierResleriana\)`에 배치합니다.
 3. 다운로드 받은 패치 파일 중, 'Translation' 폴더에 있는 번역 파일 중, 사용할 번역 폴더를 `게임 번역 폴더(..\AtelierResleriana\BepInEx\Translation\ko\Text\)`에 배치합니다.
