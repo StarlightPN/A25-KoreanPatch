@@ -1,0 +1,4 @@
+レシピ詳細=레시피 상세
+アイテム=아이템
+タイプ=유형
+속성, 범위, 사용 횟수, 효과는 'Character-Chara-Info-UI_Translation_KR'로
